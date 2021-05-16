@@ -1049,6 +1049,11 @@ h4 {
     }
 }
 
+/* Page contact */
+.contact li {
+    list-style:none;
+}
+
 /* Map */
 /* .map-responsive {
     overflow:hidden;
