@@ -830,7 +830,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1050,8 +1050,19 @@ h4 {
 }
 
 /* Page contact */
-.contact li {
+.contact li, .liens {
     list-style:none;
+}
+
+/* contenu */
+.citation {
+    text-transform: none;
+}
+
+/* Footer */
+.part {
+    font-size: 17px;
+    font-weight: bold;
 }
 
 /* Map */
