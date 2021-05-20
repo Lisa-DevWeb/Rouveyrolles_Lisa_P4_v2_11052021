@@ -401,6 +401,32 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+
+    /* contenu */
+header img {
+    width: 215px;
+    height: auto;
+}
+
+.rondnoir {
+width: 100px;
+height: auto;
+}
+
+.citation {
+    text-transform: none;
+}
+
+.logorond {
+    height: 40px;
+    width: auto;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
 }
 
 .nav > li > .dropdown a {
@@ -1055,8 +1081,28 @@ h4 {
 }
 
 /* contenu */
+header img {
+    width: 215px;
+    height: auto;
+}
+
+.rondnoir {
+width: 100px;
+height: auto;
+}
+
 .citation {
     text-transform: none;
+}
+
+.logorond {
+    height: 40px;
+    width: auto;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
 }
 
 /* Footer */
