@@ -1080,6 +1080,14 @@ h4 {
     list-style:none;
 }
 
+.text-white {
+    color: #f8f8f8!important;
+}
+
+.marge {
+    margin: 15px;
+}
+
 /* contenu */
 header img {
     width: 215px;
@@ -1112,17 +1120,13 @@ figure img {
 }
 
 /* Map */
-/* .map-responsive {
+.map-responsive {
     overflow:hidden;
-    padding-bottom:56.25%;
     position:relative;>
     height:0;
     }
     
     .map-responsive iframe {
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    } */
+    height:15vw;
+    width:80%;
+    }
