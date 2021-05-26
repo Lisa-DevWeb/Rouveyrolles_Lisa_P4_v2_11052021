@@ -1113,6 +1113,15 @@ figure img {
     height: auto;
 }
 
+.footer {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.partenaire {
+    margin: 45px;
+    width: 80%;
+}
 /* Footer */
 .part {
     font-size: 17px;
@@ -1120,12 +1129,7 @@ figure img {
 }
 
 /* Map */
-.map-responsive {
-    overflow:hidden;
-    position:relative;>
-    height:0;
-    }
-    
+
     .map-responsive iframe {
     height:15vw;
     width:80%;

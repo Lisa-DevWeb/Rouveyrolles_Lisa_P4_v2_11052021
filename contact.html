@@ -29,10 +29,10 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a href="index.html" aria-label="Aller sur l'accueil">Accueil</a>
 					</li>
 					<li>
-						<a href="#">Contact</a>
+						<a href="#" aria-label="Aller sur la page contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -81,7 +81,7 @@
 					</div> <br>
 
 					<div class="form-group">
-						<label>
+						<label for="option-select">
 							Comment avez-vous connu l'agence ?
 						</label>
 						<select name="" id="option-select" class="form-control">
@@ -95,13 +95,13 @@
 					</div>
 
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea> <br>
 						<input type="file" />
 					</div> 
 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" value="Subscribe!">
+					<button tabindex="5" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" value="submit"> 
 						Envoyer
 					</button>
 				</form>
@@ -110,7 +110,7 @@
 			<address class="col-sm-6 text-center">
 				<h2 class="justify-content-center">Nos coordonnées</h2>
                  <ul class="contact">
-					 <li><a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a></li>
+					 <li><a href="mailto:contact@lachouetteagence.com" aria-label="Ouvre les mail">contact@lachouetteagence.com</a></li>
 					 <li>2 place Sathonay 69001 Lyon </li>
 					 <li>Ouvert de 9h à 18h, du lundi au vendredi</li>
 				 </ul>
@@ -134,9 +134,9 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<h4 class="text-center white">
+				<h2 class="text-center white footer">
 					La chouette agence - Agence web basée à Lyon
-				</h4>
+				</h2>
 
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
@@ -162,6 +162,15 @@
 							<a class="social" href="https://www.instagram.com" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
+
+						<select name="" id="option-select" class="form-control partenaire">
+							<option value="">Nos partenaires</option>
+							<option value="">voiture.com</option>
+							<option value="recommandation">pizza.com</option>
+							<option value="connaissnce">matoiture.com</option>
+							<option value="internet">immobilierseo.com</option>
+						</select>
+
 				</div>
 
 			</div>
@@ -173,11 +182,11 @@
 </main>
 <!-- Principal conteneur END -->
 
-<script src="./js/jquery-2.1.0.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/blocs.js"></script>
-<script src="./js/jquery.touchSwipe.js" defer></script>
-<script src="./js/gmaps.js"></script>
+<script src="./js/jquery-2.1.0.mini.js"></script>
+<script src="./js/bootstrap.mini.js"></script>
+<script src="./js/blocs.mini.js"></script>
+<script src="./js/jquery.touchSwipe.mini.js" defer></script>
+<script src="./js/gmaps.mini.js"></script>
 
 </body>
 </html>
