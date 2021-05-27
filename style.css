@@ -1113,15 +1113,32 @@ figure img {
     height: auto;
 }
 
-.footer {
-    font-size: 17px;
-    font-weight: 500;
+.tx {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.txblanc {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.tx, .footer {
+    text-transform: none;
+}
+
+.opt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .partenaire {
-    margin: 45px;
-    width: 80%;
+    width: 150px;
+    margin-top: 10px;
 }
+
 /* Footer */
 .part {
     font-size: 17px;
